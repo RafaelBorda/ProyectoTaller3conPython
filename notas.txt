@@ -1,0 +1,35 @@
+Lo primero que vamos a hacer es, dentro de la terminal, crear un ambiente virtual donde vamos
+	a correr todo el código y mantener "encapsulado" y si por ejemplo queremos crear 
+	otro proyecto con otro entorno, podremos crear otro ambiente virtual y así mantener
+	todo segmentado. 
+
+Pasos:
+
+	1. Instalar el ambiente virtual. 
+		a. Para esto necesitaremos primero crear la carpeta del proyecto donde
+			vamos a trabajar (Esto siempre así) y luego la accedemos desde el CMD.
+			
+			Ahora sí, una vez dentro creamos el ambiente virtual y para esto debemos
+			asegurarnos de tener el ambiente virtual instalado. Usamos el comando:
+			'pip install virtualenv' dentro de la carpeta.
+
+			Ahora usamos el comando 'virtualenv env' y se creará una carpeta 'env'
+			la cuál será el ambiente.
+
+	2. Activar el ambiente virtual.
+		a. Una vez dentro de la carpeta env, tenemos que activar el ambiente. Usamos
+		acá el comando 'cd Scripts' y dentro de Scripts el comando 'activate'.
+	3. Vincular github con nuestro codigo.
+
+			 
+
+
+**
+
+Crear un archivo llamado '.gitignore' nos va a permitir agregarle archivos que queremos
+	justamente ignorar, es decir, que no sean subidos a github. 
+
+
+REQUIREMENTS.TXT
+# Acá vamos a instalar todos nuestros paquetes. Esto es control de versión, nos permitirá trabajar el mismo proyecto y 
+#    siempre tener los mismos resultados.
